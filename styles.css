@@ -1,0 +1,83 @@
+.display-1{
+  color: white;
+  text-align: center;
+}
+
+.sidebar {
+    margin-top: 10vh;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    left: 0%;
+    box-sizing: border-box;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .sidebarContainer{
+    border: 2px solid wheat;
+    display: flex;
+    flex-direction: column;
+  }
+  .target {
+    width: 50vw;
+    min-height: 80vh;
+    overflow-y: auto;
+    border: 1px solid black;
+    border: 2px solid black;
+    box-sizing: border-box;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .producedCode {
+    min-height: 80vh;
+    width: 20vw;
+    border: 2px solid black;
+    box-sizing: border-box;
+  }
+
+  .fertileDiv{
+    margin-top: 1vh;
+    border: 2px solid white;
+    min-height: 50px;
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .code{
+    margin-left: 2vw;
+  }
+
+  body{
+    background-image: url("pic.jpg");
+  }
+
+  div input{
+    width: 6vw;
+  }
+  div p{
+    color: white;
+  }
+
+  .buttons{
+    height: 20vh;
+    margin-left: 2vw;
+    margin-top: 10vh;
+  }
+
+  .btn{
+    margin-bottom: 4vh;
+  }
